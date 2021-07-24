@@ -18,3 +18,18 @@
 .form-control input:focus {
     outline-color: #00695c;
 }
+
+button {
+font: inherit;
+border: 1px solid #3e00a1;
+color: #3e00a1;
+background: white;
+border-radius: 3px;
+cursor: pointer;
+}
+
+button:hover,
+button:active {
+    background-color: #3e00a1;
+    color: white;
+}
