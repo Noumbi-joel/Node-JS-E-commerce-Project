@@ -9,7 +9,7 @@ const shopRoutes = require('./routes/shop');
 const app = express();
 
 //Main middlewares
-app.set('view engine', 'pug');
+app.set('view engine', 'ejs');
 app.set('views', 'views');
 
 app.use(urlencoded({ extended: false }));
