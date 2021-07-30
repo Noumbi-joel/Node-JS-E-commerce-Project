@@ -27,13 +27,14 @@
                                     </p>
                                 </div>
                                 <div class="card__actions">
-                                    <a class="btn" href="/products/<%= product.id %>">
-                                        Details
-                                    </a>
-                                    <%- include('../includes/add-to-cart.ejs', {product: product}) %>
+                                    <a href="/admin/edit-product" class="btn">Edit</a>
+                                    <form action="/admin/delete-product" method="POST">
+                                        <button class="btn" type="submit">Delete</button>
+                                    </form>
+
                                 </div>
                             </article>
-                        <% } %>
+                            <% } %>
                     </div>
                     <% } else { %>
                         <h1>No Products Found!</h1>
