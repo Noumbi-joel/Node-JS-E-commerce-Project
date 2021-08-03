@@ -1,16 +1,1 @@
-[
-    {
-        "id":"15536", 
-        "title":"book 1",
-        "imageUrl":"https://cdn1.vectorstock.com/i/1000x1000/77/85/closed-old-book-in-brown-cover-vector-9187785.jpg",
-        "description":"This is an awesome book !",
-        "price":"19.99"
-    },
-    {
-        "id": "49865", 
-        "title":"book 2",
-        "imageUrl":"https://www.parlons-basket.com/wp-content/uploads/2021/06/USATSI_16191597_168386351_lowres-e1624883568414.jpg",
-        "description":"Damian Lillard The FREAK",
-        "price":"15.99"
-    }
-]
+[]
