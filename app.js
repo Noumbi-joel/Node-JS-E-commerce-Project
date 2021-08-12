@@ -2,6 +2,9 @@ const express = require('express');
 const { urlencoded } = require('body-parser');
 const path = require('path');
 
+//sequelize
+const sequelize = require('../util/database');
+
 //controllers
 const { get404 } = require('./controllers/errors')
 
@@ -22,6 +25,10 @@ app.use('/admin', adminRoutes);
 
 app.use(shopRoutes);
 
-app.use(get404);
+app.use(get404);ù
+
+sequelize.sync()
+    .then((result) => {console.log(result)})
+    .catch((e) => {console.log(e)})
 
 app.listen(3000);
